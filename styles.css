@@ -29,7 +29,7 @@ p {
     box-sizing: border-box;
     margin: 25px;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: var(--color-white);
     min-width: 325px;
     max-width: 325px;
@@ -38,12 +38,13 @@ p {
 .qr-code__image {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .qr-code__title {
     color: var(--color-slate-900);
     font-weight: 700;
+    font-size: 22px;
     text-align: center;
     padding: 20px 15px;
 }

@@ -21,6 +21,10 @@ body {
     height: 100vh;
 }
 
+p {
+    font-size: 15px;
+}
+
 .qr-code__container {
     box-sizing: border-box;
     margin: 25px;
@@ -46,7 +50,6 @@ body {
 
 .qr-code__content {
     color: var(--color-slate-500);
-    font-size: 15px;
     font-weight: 400;
     text-align: center;
     padding: 0px 15px 25px 15px;
